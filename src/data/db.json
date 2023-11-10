@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "src/assets/jacob-jones.svg",
+      "name": "Jacob Jones",
+      "email": "jackson.graham@example.com",
+      "city": "Dushanbe",
+      "phone": "8888 0090",
+      "isComplete": false
+    },
+    {
+      "id": 2,
+      "image": "src/assets/jenny-wilson.svg",
+      "name": "Jenny Wilson",
+      "email": "jessica.hanson@example.com",
+      "isComplete": false,
+      "city": "Kulob",
+      "phone": "8888 0090"
+    },
+    {
+      "id": 3,
+      "image": "src/assets/guy-hawkins.svg",
+      "name": "Guy Hawkins",
+      "email": "bill.sanders@example.com",
+      "city": "Dushanbe",
+      "phone": "8888 0090",
+      "isComplete": false
+    },
+    {
+      "id": 4,
+      "image": "src/assets/cody-fisher.svg",
+      "name": "Cody Fisher",
+      "email": "michael.mitc@example.com",
+      "city": "Bokhtar",
+      "phone": "8888 0090",
+      "isComplete": true
+    },
+    {
+      "id": 5,
+      "image": "src/assets/esther-howard.svg",
+      "name": "Esther Howard",
+      "email": "felicia.reid@example.com",
+      "city": "Dushanbe",
+      "phone": "8888 0090",
+      "isComplete": true
+    },
+    {
+      "id": 6,
+      "image": "src/assets/kristin-watson.svg",
+      "name": "Kristin Watson",
+      "email": "kenzi.lawson@example.com",
+      "city": "Khujand",
+      "phone": "8888 0090",
+      "isComplete": true
+    },
+    {
+      "id": 7,
+      "image": "src/assets/dianne-russell.svg",
+      "name": "Dianne Russell",
+      "email": "deanna.curtis@example.com",
+      "isComplete": false,
+      "city": "Dushanbe",
+      "phone": "8888 0090"
+    },
+    {
+      "image": "src/assets/ronald-richards.svg",
+      "name": "Ronald Richards",
+      "email": "tim.jennings@example.com",
+      "isComplete": true,
+      "city": "Hisor",
+      "phone": "8888 0090",
+      "id": 8
+    }
+  ]
+}
