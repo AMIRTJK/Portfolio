@@ -15,6 +15,28 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import KeyboardAltOutlinedIcon from "@mui/icons-material/KeyboardAltOutlined";
 
+// Images import
+import avatar from "./assets/avatar-1.jpg";
+import html from "./assets/stack-html.svg";
+import css from "./assets/stack-css.svg";
+import js from "./assets/stack-javascript.svg";
+import react from "./assets/stack-react.svg";
+import tailwind from "./assets/stack-tailwind.svg";
+import sass from "./assets/stack-sass.svg";
+import git from "./assets/stack-git.svg";
+import vscode from "./assets/stack-vscode.svg";
+import github from "./assets/stack-github.svg";
+import cPlus from "./assets/stack-c++.svg";
+import mui from "./assets/stack-mui.svg";
+import iqmo from "./assets/IQMO.png";
+import britlex from "./assets/Britlex.png";
+import catase from "./assets/Catase.png";
+import cleaning from "./assets/Cleaning.png";
+import interwork from "./assets/INTERWORK.png";
+import lastProject from "./assets/project-6.svg";
+
+// =========]
+
 import {
   Box,
   Typography,
@@ -134,7 +156,10 @@ function App() {
                 </div>
               </aside>
               <aside className="right w-[50%] flex justify-end">
-                <div className="wrapper-image h-[350px] w-[350px] rounded-[175px] border-[#00C0FD] border-[5px] flex justify-center items-center bg-[url('src/assets/avatar-1.jpg')] bg-no-repeat bg-cover"></div>
+                <div
+                  className="wrapper-image h-[350px] w-[350px] rounded-[175px] border-[#00C0FD] border-[5px] flex justify-center items-center  bg-no-repeat bg-cover"
+                  style={{ backgroundImage: `url(${avatar})` }}
+                ></div>
               </aside>
             </div>
           </div>
@@ -276,11 +301,7 @@ function App() {
                   href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/HTML_basics"
                   target="_blank"
                 >
-                  <img
-                    src="src/assets/stack-html.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={html} alt="" className="w-full" />
                 </a>
               </div>
               <div className="wrapper-image w-[130px] h-[130px]">
@@ -288,92 +309,52 @@ function App() {
                   href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/CSS_basics"
                   target="_blank"
                 >
-                  <img
-                    src="src/assets/stack-css.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={css} alt="" className="w-full" />
                 </a>
               </div>
               <div className="wrapper-image w-[130px] h-[130px]">
                 <a href="https://learn.javascript.ru/" target="_blank">
-                  <img
-                    src="src/assets/stack-javascript.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={js} alt="" className="w-full" />
                 </a>
               </div>
               <div className="wrapper-image w-[130px] h-[130px]">
                 <a href="https://react.dev/" target="_blank">
-                  <img
-                    src="src/assets/stack-react.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={react} alt="" className="w-full" />
                 </a>
               </div>
               <div className="wrapper-image w-[130px] h-[130px]">
                 <a href="https://tailwindcss.com/" target="_blank">
-                  <img
-                    src="src/assets/stack-tailwind.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={tailwind} alt="" className="w-full" />
                 </a>
               </div>
               <div className="wrapper-image w-[130px] h-[130px]">
                 <a href="https://mui.com/" target="_blank">
-                  <img
-                    src="src/assets/stack-mui.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={mui} alt="" className="w-full" />
                 </a>
               </div>
               <div className="wrapper-image w-[130px] h-[130px]">
                 <a href="https://sass-lang.com/" target="_blank">
-                  <img
-                    src="src/assets/stack-sass.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={sass} alt="" className="w-full" />
                 </a>
               </div>
               <div className="wrapper-image w-[130px] h-[130px]">
                 <a href="https://git-scm.com/" target="_blank">
-                  <img
-                    src="src/assets/stack-git.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={git} alt="" className="w-full" />
                 </a>
               </div>
               <div className="wrapper-image w-[130px] h-[130px]">
                 <a href="https://devdocs.io/cpp-diagnostics/" target="_blank">
-                  <img
-                    src="src/assets/stack-c++.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={cPlus} alt="" className="w-full" />
                 </a>
               </div>
               <div className="wrapper-image w-[130px] h-[130px]">
                 <a href="https://code.visualstudio.com/" target="_blank">
-                  <img
-                    src="src/assets/stack-vscode.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={vscode} alt="" className="w-full" />
                 </a>
               </div>
               <div className="wrapper-image w-[130px] h-[130px]">
                 <a href="https://github.com/" target="_blank">
-                  <img
-                    src="src/assets/stack-github.svg"
-                    alt=""
-                    className="w-full"
-                  />
+                  <img src={github} alt="" className="w-full" />
                 </a>
               </div>
             </div>
@@ -392,7 +373,7 @@ function App() {
             </div>
             <div className="wrapper-post flex justify-between items-start flex-wrap gap-y-[62px] gap-x-[20px] mt-[96px]">
               <ProjectPost
-                image="bg-[url('src/assets/IQMO.png')]"
+                image={iqmo}
                 title="IQMO"
                 desc="This is sample project description random things are here in
           description This is sample project lorem ipsum generator for dummy
@@ -402,7 +383,7 @@ function App() {
                 viewCode="https://github.com/AMIRTJK/Home-Work-04.09.2023"
               />
               <ProjectPost
-                image="bg-[url('src/assets/INTERWORK.png')]"
+                image={interwork}
                 title="INTERWORK"
                 desc="This is sample project description random things are here in
           description This is sample project lorem ipsum generator for dummy
@@ -412,7 +393,7 @@ function App() {
                 viewCode="https://github.com/AMIRTJK/HomeWork-31.08.2023"
               />
               <ProjectPost
-                image="bg-[url('src/assets/Britlex.png')]"
+                image={britlex}
                 title="BRITLEX"
                 desc="This is sample project description random things are here in
           description This is sample project lorem ipsum generator for dummy
@@ -422,7 +403,7 @@ function App() {
                 viewCode="https://github.com/AMIRTJK/Home-Work-06.09.2023"
               />
               <ProjectPost
-                image="bg-[url('src/assets/Catase.png')]"
+                image={catase}
                 title="TOUTOWN"
                 desc="This is sample project description random things are here in
           description This is sample project lorem ipsum generator for dummy
@@ -432,7 +413,7 @@ function App() {
                 viewCode="https://github.com/AMIRTJK/TouTown-Website"
               />
               <ProjectPost
-                image="bg-[url('src/assets/Cleaning.png')]"
+                image={cleaning}
                 title="CLEANING-X"
                 desc="This is sample project description random things are here in
           description This is sample project lorem ipsum generator for dummy
@@ -442,7 +423,7 @@ function App() {
                 viewCode="https://github.com/AMIRTJK/Cleaning-X"
               />
               <ProjectPost
-                image="bg-[url('src/assets/project-6.svg')]"
+                image={lastProject}
                 title="Project Tile goes here"
                 desc="This is sample project description random things are here in
           description This is sample project lorem ipsum generator for dummy

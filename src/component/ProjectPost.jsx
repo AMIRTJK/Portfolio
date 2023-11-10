@@ -5,7 +5,8 @@ const ProjectPost = (props) => {
   return (
     <div className="post w-[32%] h-[567px] rounded-[20px] flex flex-col overflow-hidden shadow-lg ">
       <div
-        className={`wrapper-image ${props.image} bg-no-repeat bg-cover h-[100%]`}
+        className="wrapper-image bg-no-repeat bg-cover h-[100%]"
+        style={{ backgroundImage: `url(${props.image})` }}
       ></div>
       <div className="wrapper-text bg-[#fff] rounded-b-[20px] flex flex-col gap-[12px] py-[27px] pl-[28px] pb-[25px] pr-[30px] ">
         <p className="text-[28px] font-[500] leading-[26px]">{props.title}</p>
